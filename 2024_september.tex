@@ -1,0 +1,115 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{setspace}
+
+% Page formatting
+\geometry{left=0.5in,right=0.5in,top=0.3in,bottom=0.3in}
+
+% Defining section formatting with blue color
+\linespread{1} % Adjust the line spacing as needed
+\titlespacing*{\section}{0pt}{0.5\baselineskip}{0.5\baselineskip}
+\titlespacing*{\subsection}{0pt}{0.1\baselineskip}{0.2\baselineskip}
+% Define the section formatting
+\titleformat{\section}{\color{cyan}\bfseries\Large}{}{0em}{}[\color{black}\titlerule]
+\titleformat{\subsection}{\bfseries\large}{}{0em}{}
+\titleformat{\subsubsection}{\bfseries}{}{0em}{}
+
+% Improved custom itemize formatting
+\setlist[itemize]{left=0em, itemsep=0.2em, parsep=0em, topsep=0em}
+
+% Custom command to create space after sections
+\newcommand{\sectionsep}{\vspace{0.1cm}}
+\newcommand{\divider}{\vspace{0.1cm} \noindent\rule{\linewidth}{0.3pt} \vspace{0.1cm}}
+
+% Hyperref settings to make links blue and clickable
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    linkcolor=blue,
+    citecolor=blue
+}
+
+\begin{document}
+
+% Name and contact information
+\begin{center}
+    {\Huge \textbf{Anoushka Chatterjee}} \\
+    \vspace{5pt}
+    \href{mailto:anoushka19c@gmail.com}{anoushka19c@gmail.com} $|$
+    \href{tel:+918815162945}{+91 8815162945} $|$
+    \href{https://www.linkedin.com/in/anoushkaacc}{LinkedIn} $|$
+    \href{https://github.com/anoushkaacc}{GitHub} \\
+\end{center}
+
+\vspace{0.1cm}
+
+% Summary section
+\section*{SUMMARY}
+Motivated engineering student passionate about Data Science and Artificial Intelligence. Core member of the college technical society, with a deep enthusiasm for programming. Avid reader of research papers, always eager to expand knowledge and apply it to innovative solutions.
+
+
+% Education section
+\section*{EDUCATION}
+\subsection{{Chhattisgarh Swami Vivekananda Technical University} \small\hfill Nov 2022 - 2026 } \\
+B Tech (Honours) Computer Science Engineering (Data Science) \\
+CPI : 7.33
+
+% Skills section
+\section*{SKILL SET}
+\begin{itemize}
+    \item \textbf{Languages:} C, C++, Python, R, SQL, MATLAB
+    \item \textbf{Frameworks:} NumPy, Pandas, SciKit-Learn, NLTK, Seaborn, Matplotlib
+    \item \textbf{Software/Tools:} RStudio, Git, GitHub, Jupyter Lab, Tableau, VSCode, Mercurial SCM, LaTex
+
+\end{itemize}
+
+% Experience section
+\section*{EXPERIENCE}
+\subsection{{Data Science Intern, South Eastern CoalFields Limited (SECL)} \small\hfill July 2023 – Aug 2023}
+\begin{itemize}
+    \item Developed a predictive maintenance system using a Random Forest classifier to prevent mining equipment failures.
+    \item Preprocessed datasets and performed Exploratory Data Analysis (EDA) to extract meaningful features.
+    \item Automated model training, evaluation, and prediction processes using Python scripts.
+    \item Achieved high accuracy, precision, and F1 score in failure prediction, reducing operational downtime.
+    \item Created detailed reports and logs to track project performance and results.
+\end{itemize}
+
+% Projects section
+\section*{PROJECTS}
+
+\subsection{{Predictive Modeling for Agriculture} }
+\begin{itemize}
+    \item Developed a multi-class classification model to recommend optimal crops based on soil metrics like nitrogen, phosphorus, potassium, and pH levels.
+    \item Preprocessed data, addressed missing values, and trained logistic regression models, achieving an F1-score of 0.2389. \href{https://github.com/anoushkaacc/Machine-Learning-fundamentals-with-Python/tree/main/Project%3A%20Predictive%20Modeling%20for%20Agriculture}{Link}
+\end{itemize}
+
+\subsection{Movie Recommendation System}
+\begin{itemize}
+    \item Built a Python-based recommendation system using text matching and similarity scoring to suggest up to 35 tailored movies based on user preferences. \href{https://github.com/anoushkaacc/Acmegrade-projects/tree/main/Movie%20Recommendation%20engine}{Link}
+\end{itemize}
+
+\subsection{Stroke Prediction Model in R} 
+\begin{itemize}
+    \item Created a stroke prediction model using Random Forest, achieving over 95\% accuracy by analyzing health data and identifying important features through logistic regression.
+    \item Preprocessed data and handled missing values, improving model performance with detailed exploratory data analysis. \href{https://github.com/anoushkaacc/R-for-Data-Science}{Link} 
+\end{itemize}
+
+% Position of Responsibility section
+\section*{POSITIONS OF RESPONSIBILITY}
+
+\subsection*{Vice President, Coding Club}
+\begin{itemize}
+    \item Led a team of over 20 members, organizing and hosting numerous technical sessions.
+    \item Trained and mentored juniors in coding and technical skills.
+\end{itemize}
+
+\subsection*{IEEE Volunteer}
+\begin{itemize}
+    \item Facilitated a workshop session on AR-VR technology at the IEEE International Conference on Electrical, Computer, and Communication Technologies (ICECCT 2024), showcasing expertise and enhancing the conference's technical program.
+\end{itemize}
+
+\end{document}
