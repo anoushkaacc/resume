@@ -1,0 +1,100 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage[hidelinks, colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue]{hyperref}
+
+\geometry{left=0.4in,right=0.4in,top=0.3in,bottom=0.3in}
+\linespread{1} % Adjust the line spacing as needed
+\titlespacing*{\section}{0pt}{0.5\baselineskip}{0.5\baselineskip}
+\titlespacing*{\subsection}{0pt}{0.1\baselineskip}{0.2\baselineskip}
+% Define the section formatting
+\titleformat{\section}{\bfseries\Large}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\bfseries\large}{}{0em}{}
+\titleformat{\subsubsection}{\bfseries}{}{0em}{}
+
+% Define the itemize settings
+\setlist[itemize]{noitemsep, topsep=0pt}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \textbf{Anoushka Chatterjee}} \\
+    \vspace{5pt}
+    \href{mailto:anoushka19c@gmail.com}{anoushka19c@gmail.com} $|$
+    \href{tel:+918815162945}{+91 8815162945} $|$
+    \href{https://www.linkedin.com/in/anoushka-chatterjee1}{LinkedIn} $|$
+    \href{https://github.com/anoushkaacc}{GitHub} \\
+\end{center}
+
+\section*{Education}
+\begin{tabular}{p{0.7\textwidth} p{0.3\textwidth}}
+    \textbf{Chhattisgarh Swami Vivekananda Technical University} - \\ University Teaching Department, Bhilai, India & Nov 2022 - 2026 \\
+    3rd Sem SPI: 7.62 & \\
+    2nd Sem SPI: 7.05 & \\
+    1st Sem SPI: 7.24 & \\
+    \textbf{D.A.V Public School}, Bilaspur, India & \\
+    Class 10th; Percentage: 92.8 & April 2020 \\
+    Class 12th; Percentage: 61.2 & April 2022 \\
+\end{tabular}
+
+\section*{Skill Set}
+\begin{itemize}
+    \item \textbf{Languages:} C, C++, Python, R, MATLAB
+    \item \textbf{Frameworks:} NumPy, Pandas, SciKit-Learn, Seaborn, Matplotlib
+    \item \textbf{Software/Tools:} RStudio, Git, GitHub, Jupyter Lab, Tableau, VSCode, Mercurial SCM, LaTex
+    \item \textbf{Analytical Skills:} Predictive Modelling/Analysis, Regression Analysis, Machine Learning Algorithms 
+\end{itemize}
+
+\section*{Projects}
+\subsection{Predictive Modeling for Agriculture}
+\begin{itemize}
+    \item Created a multi-class classification model to help farmers choose the best crop based on soil metrics like nitrogen, phosphorous, potassium levels, and pH.
+    \item Addressed missing values, identified crop types, split the dataset, and trained logistic regression models on soil features to predict optimal crops.
+    \item Found potassium content ratio (K) as the most critical feature, achieving the highest F1-score of 0.2389. \href{https://github.com/anoushkaacc/Machine-Learning-fundamentals-with-Python/tree/main/Project%3A%20Predictive%20Modeling%20for%20Agriculture}{Link}
+\end{itemize}
+\subsection{Stroke Prediction Model in R} 
+\begin{itemize}
+    \item Predict stroke likelihood based on health parameters to address high mortality rates.
+    \item Preprocessed data (handled missing values, converted types, performed exploratory analysis), used logistic regression for feature importance, and built a random forest model.
+    \item Developed a stroke prediction model with over 95 \% accuracy, utilizing R for effective data analysis and visualization. \href{https://github.com/anoushkaacc/R-for-Data-Science}{Link} 
+\end{itemize}
+
+\section*{Training and Coursework}
+\subsection*{Training}
+\begin{tabular}{p{0.7\textwidth} p{0.3\textwidth}}
+    \textbf{Acmegrade} & Mar - Apr 2024 \\
+\end{tabular}
+\begin{itemize}
+    \item \textbf{Movie Recommendation System}: Developed a Python-based movie recommendation system that suggests similar films to a user’s favorite by utilizing text matching and similarity scoring techniques to provide up to 35 tailored movie recommendations. \href{https://github.com/anoushkaacc/Acmegrade-projects/tree/main/Movie%20Recommendation%20engine}{Link}
+    \item \textbf{Sales Forecasting}: Built a regression model for sales forecasting that predicts future sales based on historical data and various influencing factors, enhancing accuracy in business planning and strategy. \href{https://github.com/anoushkaacc/Acmegrade-projects/tree/main/sales%20forecasting}{Link}
+\end{itemize}
+
+\subsection*{Courses}
+\begin{itemize}
+    \item \textbf{Natural Language Processing with Classification and Vector Spaces} at DeepLearning.AI
+    \item \textbf{Supervised Learning with Scikit-Learn} at DataCamp
+    \item \textbf{HackerRank Python (Basic) Certified}
+    \item \textbf{MATLAB Onramp} at MathWorks
+\end{itemize}
+
+\section*{Position of Responsibility}
+\subsection*{Vice President, PR and Outreach, Programmers' Paradise}
+\begin{itemize}
+    \item Led the Social Media, Outreach, and Web teams simultaneously, overseeing the activities of 15+ members. 
+    \item Organized and contributed to the successful hosting of multiple programming workshops and events within the college.
+    \item Conducted and led official meetings to enhance outreach efforts and drive the development of the club's activities and partnerships.
+\end{itemize}
+
+\subsection*{IEEE Volunteer}
+\begin{itemize}
+    \item Facilitated a workshop session on AR-VR technology at the IEEE International Conference on Electrical, Computer, and Communication Technologies (ICECCT 2024), showcasing expertise and enhancing the conference's technical program.
+\end{itemize}
+
+\subsection*{Open Source Contributor}
+\begin{itemize}
+    \item Contributor at GirlScript Summer of Code (GSSOC) and Social Summer of Code (SSOC).
+\end{itemize}
+
+\end{document}
